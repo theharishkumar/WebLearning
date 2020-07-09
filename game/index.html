@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FormSolution</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="fname">First Name:</label>
+		<input id="fname" type="text" name="name" placeholder="John" required>
+		<label for="lname">Last Name:</label>
+		<input id="lname" type="text" name="name" placeholder="Smith"required><br>
+		<label id="sex">Male</label>
+		<input type="radio" name="sex" value="male">
+		<label id="sex">Female</label>
+		<input type="radio" name="sex" value="female">
+		<label id="sex">Other</label>
+		<input type="radio" name="sex" value="other"><br>
+		<label for="mail">Email:</label>
+		<input id="mail" type="email" name="mail" value="mail" placeholder="your email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" value="password" name="pass" required minlength="5"><br>
+		<label>Birthday:
+		<select name="month">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>March</option>
+			<option>April</option>
+		</select>
+		<select name="day">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+		<select name="year">
+			<option>1989</option>
+			<option>1999</option>
+			<option>2009</option>
+			<option>2019</option>
+		</select><br>
+		</label>
+		<label for="terms">I agree to the terms and conditions</label>
+		<input id="terms" type="checkbox" value="terms" required><br>
+		<input type="submit" name="Submit">
+	</form>
+
+</body>
+</html>
